@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(230, 236, 243);
+    font-family: "Barlow Semi Condensed",sans-serif;
+}
+main{
+    
+    display: block;
+    width:95%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 100px;
+    
+    
+}
+.container{
+    width:78%;
+    height: 75vh;
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    /* border: 1px solid black; */
+    gap: 1.5rem;
+    align-content: center;
+}
+.card1{
+    /* border: 1px solid black; */
+
+    background-color: #7541C8;
+    background-image: url(https://kabir-sagiii.github.io/CSS_Grid_learn-grid-the-easy-way/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position:top right 10%;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    grid-area: 1/1/2/3;
+    
+
+}
+.all{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.imageP img{
+    border-radius: 50%;
+    width: 30px;
+}
+
+#des{
+    color: rgb(177, 172, 172);
+    font-size: 12px;
+}
+.info{
+    padding-top: 20px;
+}
+.info p{
+    font-size: 20px;
+    font-weight: 500;
+}
+#p2{
+    font-size: 12px;
+    padding-top: 20px;
+    line-height: 18px;
+    color: rgb(222, 215, 215);
+}
+.card2{
+    background-color: #48556A;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    
+}
+.card3{
+    display: grid;
+   
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    color: black;
+    grid-area: 1/4/3/5;
+    
+}
+#p23{
+    font-size: 13.5px;
+    padding-top: 20px;
+    line-height: 18px;
+    color: rgb(139, 135, 135);
+}
+.card4{
+    display: grid;
+   
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    color: black;
+    
+}
+.card5{
+    background-color: #19212E;
+    padding: 30px;
+    border-radius: 5px;
+    color: white;
+    display: grid;
+    grid-area: 2/2/3/4;
+}
